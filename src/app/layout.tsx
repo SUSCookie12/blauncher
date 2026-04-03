@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   description: "Download BLauncher, the ultimate Minecraft launcher featuring multi-instance management, CSPackage Auth, and optimized launch performance. Built by CSPackage.",
   keywords: ["Minecraft Launcher", "BLauncher", "BorgovLauncher", "CSPackage", "Minecraft Modded", "Auth"],
   authors: [{ name: "CSPackage" }],
+  icons: {
+    icon: [
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "BLauncher - The High-Performance Minecraft Portal",
     description: "Multi-instance support, CSPackage Auth, and lightning-fast launch speeds.",

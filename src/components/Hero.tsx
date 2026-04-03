@@ -104,7 +104,7 @@ export default function Hero() {
           >
             <video 
               ref={videoRef}
-              src="/showcase.mp4"
+              src="https://i.imgur.com/YUcssE8.mp4"
               autoPlay 
               muted 
               playsInline
